@@ -18,3 +18,9 @@ function checkCountValue() {
     }
 }
 
+function restartCount(){
+    count = 0;
+    document.getElementById('countDisplay').innerHTML = count;
+    alert("Tu contador de seguidores se ha restablecido");
+}
+
